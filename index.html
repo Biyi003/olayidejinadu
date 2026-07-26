@@ -1,230 +1,352 @@
-<!-- Enhancements added: Typewriter effect, YouTube video links, code cleanup -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Olayide Jinadu</title>
+  <title>Dr. Olayide Jinadu | Faith • Health • Wealth</title>
+
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jost:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
+
+  <!-- ============ HEADER ============ -->
   <header>
-    <a href="#" class="logo">olayidejinadu.com</a>
+    <a href="#home" class="logo-group">
+      <span class="crest">OJ</span>
+      <span class="logo-text">
+        <span class="name">Dr. Olayide Jinadu</span>
+        <span class="tagline">Faith • Health • Wealth</span>
+      </span>
+    </a>
+
     <ul class="navlist">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#health">Health</a></li>
+      <li><a href="#business">Business</a></li>
+      <li><a href="#books">Books</a></li>
+      <li><a href="#media">Media</a></li>
+      <li><a href="#speaking">Speaking</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+
     <div class="nav-right">
-      <a href="#contact" class="nav-btn">Contact me!</a>
-      <div class="bx bx-menu" id="menu-icon"></div>
-    </div>
-    <div class="theme-toggle">
-    <i class="ri-moon-line" id="theme-icon"></i>
+      <a href="#contact" class="nav-btn">Book Dr. Jinadu</a>
+      <div class="theme-toggle"><i class="ri-moon-line" id="theme-icon"></i></div>
+      <i class="bx bx-menu" id="menu-icon"></i>
     </div>
   </header>
 
+  <!-- ============ HERO ============ -->
   <section class="hero" id="home">
-    <div class="hero-text">
-      <h6>Hello, <span>my name is</span></h6>
-      <h1><span>Olayide</span> Jinadu</h1>
-      <h4>I am <span class="typewriter"></span></h4>
-      <p>Chief Medical Director at Charis-Med Hospital where I...</p>
-      <div class="hero-icons">
-        <a href="https://www.youtube.com/@DrOlayideJinadu" target="_blank"><i class="ri-youtube-fill"></i></a>
-        <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
-        <a href="https://www.instagram.com/doc_yide" target="_blank"><i class="ri-instagram-line"></i></a>
+    <div class="container">
+      <div class="hero-text">
+        <h6>Dr. Olayide Adebowale Jinadu</h6>
+        <h1>Building Health.<br>Creating Wealth.<br>Leaving a <span class="accent">Legacy.</span></h1>
+        <h4>I am <span class="typewriter"></span></h4>
+        <p>Helping individuals, organizations and nations achieve health, wealth, leadership and lasting impact through medicine, entrepreneurship, leadership and Christian values.</p>
+        <div class="hero-icons">
+          <a href="https://www.youtube.com/@DrOlayideJinadu" target="_blank"><i class="ri-youtube-fill"></i></a>
+          <a href="#" target="_blank"><i class="ri-facebook-box-fill"></i></a>
+          <a href="https://www.instagram.com/doc_yide" target="_blank"><i class="ri-instagram-line"></i></a>
+          <a href="#" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+          <a href="#" target="_blank"><i class="ri-twitter-x-line"></i></a>
+          <a href="#" target="_blank"><i class="ri-tiktok-fill"></i></a>
+        </div>
+        <div class="hero-btn">
+          <a href="#contact" class="btn">Book Dr. Jinadu</a>
+          <a href="https://www.youtube.com/@DrOlayideJinadu" target="_blank" class="btn2">Watch on YouTube</a>
+        </div>
       </div>
-      <div class="hero-btn">
-        <a href="#portfolio" class="btn">View My Works</a>
-        <a href="#skills" class="btn2">My Skills</a>
+      <div class="hero-img">
+        <div class="ring"></div>
+        <div class="ph portrait">Portrait photo<small>replace with headshot</small></div>
       </div>
     </div>
-    <div class="hero-img">
-      <img src="img/hero11.png" alt="Olayide Jinadu">
-    </div>
-    <!-- <div class="scroll">
-      <a href="#services"><i class="ri-scroll-to-bottom-fill"></i>Click to Scroll</a>
-    </div> -->
   </section>
 
-  <!-- Other sections remain unchanged... -->
+  <div class="stats-bar">
+    <div class="container">
+      <div class="stat"><i class="ri-time-line"></i><div><strong>10+</strong><span>Years Medical Experience</span></div></div>
+      <div class="stat"><i class="ri-newspaper-line"></i><div><strong>18+</strong><span>Newspaper Publications</span></div></div>
+      <div class="stat"><i class="ri-book-open-line"></i><div><strong>2</strong><span>Published Books</span></div></div>
+      <div class="stat"><i class="ri-building-4-line"></i><div><strong>10+</strong><span>Businesses &amp; Initiatives</span></div></div>
+      <div class="stat"><i class="ri-mic-line"></i><div><strong>15+</strong><span>Speaking Engagements</span></div></div>
+      <div class="stat"><i class="ri-award-line"></i><div><strong>Awards</strong><span>National Recognition</span></div></div>
+    </div>
+  </div>
 
+  <!-- ============ FOUR PILLARS ============ -->
+  <section class="pillars" id="about">
+    <div class="container">
+      <div class="pillar-card" id="health">
+        <div class="pillar-icon"><i class="ri-heart-pulse-line"></i></div>
+        <h3>Health</h3>
+        <p>Compassionate care, quality services and community health impact.</p>
+        <a href="#health">Learn More →</a>
+      </div>
+      <div class="pillar-card" id="business">
+        <div class="pillar-icon"><i class="ri-briefcase-4-line"></i></div>
+        <h3>Business</h3>
+        <p>Building businesses, empowering leaders, creating wealth.</p>
+        <a href="#business">Learn More →</a>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-icon"><i class="ri-book-2-line"></i></div>
+        <h3>Knowledge</h3>
+        <p>Books, articles, media and resources for your growth.</p>
+        <a href="#books">Learn More →</a>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-icon"><i class="ri-hand-heart-line"></i></div>
+        <h3>Faith</h3>
+        <p>Biblical teaching, ministry and kingdom advancement.</p>
+        <a href="#faith">Learn More →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRUSTED BY ============ -->
+  <section class="trusted">
+    <div class="container">
+      <h6>Trusted By</h6>
+      <div class="trusted-row">
+        <div class="trusted-logo">Harvard<br>Medical School</div>
+        <div class="trusted-logo">University of<br>Washington</div>
+        <div class="trusted-logo">ACS<br>American College of Surgeons</div>
+        <div class="trusted-logo">Rome<br>Business School</div>
+        <div class="trusted-logo">Obafemi Awolowo<br>University</div>
+        <div class="trusted-logo">ISUOG</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BOOKS / MEDIA / ECOSYSTEM ============ -->
+  <section class="showcase" id="books">
+    <div class="container">
+
+      <div class="showcase-box books">
+        <h5>Featured Books</h5>
+        <div class="book-covers">
+          <div class="ph">A Trajectory<br>of Wealth</div>
+          <div class="ph">Purity</div>
+        </div>
+        <div class="book-btns">
+          <a href="#" class="btn">Buy Books</a>
+          <a href="#" class="btn2">Read Samples</a>
+        </div>
+        <a href="#books" class="view-all">View All Books →</a>
+      </div>
+
+      <div class="showcase-box" id="media">
+        <h5>In the Media</h5>
+        <ul class="media-list">
+          <li><i class="ri-google-fill"></i><div><strong>18 Newspaper Articles</strong><span>The Guardian Newspaper</span></div></li>
+          <li><i class="ri-radio-line"></i><div><strong>Radio Interviews</strong><span>Nigeria Info, Hebron FM</span></div></li>
+          <li><i class="ri-youtube-fill"></i><div><strong>YouTube Channel</strong><span>@drolayidejinadu</span></div></li>
+          <li><i class="ri-mic-2-line"></i><div><strong>Speaking Engagements</strong><span>Conferences &amp; Events</span></div></li>
+        </ul>
+        <a href="#media" class="explore">Explore Media Centre →</a>
+      </div>
+
+      <div class="showcase-box ecosystem">
+        <h5>The Jinadu Ecosystem</h5>
+        <div class="ecosystem-wrap">
+          <div class="eco-center">Dr. Jinadu<br>Faith · Health · Wealth</div>
+          <div class="eco-node n1"><div class="dot"><i class="ri-hospital-line"></i></div>Charis-Med Hospital</div>
+          <div class="eco-node n2"><div class="dot"><i class="ri-global-line"></i></div>Yide Global Incorporated</div>
+          <div class="eco-node n3"><div class="dot"><i class="ri-graduation-cap-line"></i></div>Business Academy</div>
+          <div class="eco-node n4"><div class="dot"><i class="ri-quill-pen-line"></i></div>Yide Concepts Media &amp; Publishing</div>
+        </div>
+        <p class="tagline">Building. Connecting. Transforming Lives.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ JOURNEY OF IMPACT ============ -->
+  <section class="journey">
+    <div class="container">
+      <div class="mid-text">
+        <h6>Journey of Impact</h6>
+        <h2>From Medical School to Global Impact</h2>
+      </div>
+      <div class="timeline-wrap">
+        <div class="timeline">
+          <div class="t-node"><div class="year">2007</div><div class="desc">Begins Medical Education</div></div>
+          <div class="t-node"><div class="year">2013</div><div class="desc">Most Enterprising Medical Student (OAU)</div></div>
+          <div class="t-node"><div class="year">2017</div><div class="desc">Founded Charis-Med Hospital</div></div>
+          <div class="t-node"><div class="year">2021</div><div class="desc">Award of Appreciation (JCI, FCET)</div></div>
+          <div class="t-node"><div class="year">2023</div><div class="desc">DNIMA Award (Human Medicine &amp; Health Facility Management)</div></div>
+          <div class="t-node"><div class="year">2024</div><div class="desc">Outstanding Corporate Brand (TIBA Awards)</div></div>
+          <div class="t-node"><div class="year">Today</div><div class="desc">Building Yide Global for Generations</div></div>
+        </div>
+      </div>
+      <div class="journey-cta"><a href="#about" class="btn">Read Full Story</a></div>
+    </div>
+  </section>
+
+  <!-- ============ LET'S BUILD TOGETHER ============ -->
+  <section class="build-together" id="speaking">
+    <div class="container">
+      <div class="bt-card">
+        <div class="ph">Speaker photo<small>replace with image</small></div>
+        <div class="bt-text">
+          <h3>Let's Build Together</h3>
+          <p>Book a consultation, invite me to speak, partner with us or learn from our programs.</p>
+          <div class="bt-icons">
+            <div class="bt-icon"><div class="circle"><i class="ri-calendar-check-line"></i></div><span>Book Consultation</span></div>
+            <div class="bt-icon"><div class="circle"><i class="ri-mic-line"></i></div><span>Invite Me to Speak</span></div>
+            <div class="bt-icon"><div class="circle"><i class="ri-line-chart-line"></i></div><span>Business Mentorship</span></div>
+            <div class="bt-icon"><div class="circle"><i class="ri-hospital-line"></i></div><span>Hospital Services</span></div>
+            <div class="bt-icon"><div class="circle"><i class="ri-tv-2-line"></i></div><span>Media Interview</span></div>
+          </div>
+          <a href="#contact" class="cta-btn">Contact Me Today</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PORTFOLIO / VIDEOS (retained) ============ -->
   <section class="portfolio" id="portfolio">
-    <div class="mid-text">
-      <h2>MEDIA</h2>
-      <h6>My Videos</h6>
-    </div>
-    <div class="portfolio-content">
-      <div class="row">
-
-        <iframe width="450" height="315" 
-            src="https://www.youtube.com/embed/nWIeso45pVc?si=BWWgnZHIBEkQEpeU" 
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen>
-        </iframe>
-        <div class="p-flex">
-          <a href="#">Healthy Living</a>
-          <a href="#">Medicine</a>
+    <div class="container">
+      <div class="mid-text">
+        <h6>My Videos</h6>
+        <h2>Media</h2>
+      </div>
+      <div class="portfolio-content">
+        <div class="row">
+          <iframe src="https://www.youtube.com/embed/nWIeso45pVc?si=BWWgnZHIBEkQEpeU"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="p-flex"><a href="#">Healthy Living</a><a href="#">Medicine</a></div>
+          <h3>Medicine and Surgery</h3>
         </div>
-        <h3>Medicine and Surgery</h3>
-      </div>
-
-      <div class="row">
-
-            <iframe width="450" height="315" 
-                src="https://www.youtube.com/embed/u5pddSnYT9w?si=H7xPJDVTa5_lFL-D" 
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" 
-                allowfullscreen>
-            </iframe>
-
-            <div class="p-flex">
-                <a href="#">Personal Finance</a>
-                <a href="#">Investments</a>
-            </div>
-            <h3>Financial Development</h3>
-      </div>
-
-      <div class="row">
-
-        <iframe width="450" height="315" 
-            src="https://www.youtube.com/embed/qn_SyAHm7A8?si=lO9hoUMkFmHlnV54" 
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen>
-        </iframe>
-        
-        <div class="p-flex">
-          <a href="#">Business</a>
-          <a href="#">Entrepreneurship</a>
+        <div class="row">
+          <iframe src="https://www.youtube.com/embed/u5pddSnYT9w?si=H7xPJDVTa5_lFL-D"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="p-flex"><a href="#">Personal Finance</a><a href="#">Investments</a></div>
+          <h3>Financial Development</h3>
         </div>
-        <h3>Entrepreneurship</h3>
+        <div class="row">
+          <iframe src="https://www.youtube.com/embed/qn_SyAHm7A8?si=lO9hoUMkFmHlnV54"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="p-flex"><a href="#">Business</a><a href="#">Entrepreneurship</a></div>
+          <h3>Entrepreneurship</h3>
+        </div>
       </div>
-    </div>
-    <div class="portfolio-btn">
-      <a href="https://www.youtube.com/c/DrOlayideJinadu" target="_blank" class="p-btn">Click to Watch Other Videos<i class="ri-arrow-right-up-line"></i></a>
+      <div class="portfolio-btn">
+        <a href="https://www.youtube.com/c/DrOlayideJinadu" target="_blank" class="p-btn">Click to Watch Other Videos <i class="ri-arrow-right-up-line"></i></a>
+      </div>
     </div>
   </section>
 
-    <section id="highlights" class="doctor-highlights">
-        <div class="mid-text">
-            <h2>Highlights</h2>
-            <h6>Cases, Achievements & Awards</h6>
+  <!-- ============ HIGHLIGHTS (retained) ============ -->
+  <section id="highlights" class="doctor-highlights">
+    <div class="container">
+      <div class="mid-text">
+        <h6>Cases, Achievements &amp; Awards</h6>
+        <h2>Highlights</h2>
+      </div>
+      <div class="highlight-content">
+        <div class="highlight-box">
+          <h3>Major Cases Handled</h3>
+          <ul>
+            <li>Successfully performed multiple fibroid surgeries, including complex and high-risk cases.</li>
+            <li>Managed numerous Obstetrics &amp; Gynecology (O&amp;G) interventions including cesarean sections, ectopic pregnancies, and fertility support.</li>
+            <li>Handled emergency surgeries and acute care procedures in general practice.</li>
+            <li>Provided long-term treatment plans for patients with chronic conditions.</li>
+          </ul>
         </div>
-
-        <div class="highlight-content">
-            <div class="highlight-box">
-            <h3>Major Cases Handled</h3>
-            <ul>
-                <li>Successfully performed multiple fibroid surgeries, including complex and high-risk cases.</li>
-                <li>Managed numerous Obstetrics & Gynecology (O&G) interventions including cesarean sections, ectopic pregnancies, and fertility support.</li>
-                <li>Handled emergency surgeries and acute care procedures in general practice.</li>
-                <li>Provided long-term treatment plans for patients with chronic conditions.</li>
-            </ul>
-            </div>
-
-            <div class="highlight-box">
-            <h3>Achievements</h3>
-            <ul>
-                <li>Appointed Chief Medical Director at Charis-Med Hospital.</li>
-                <li>Founded and expanded a community health initiative serving underserved areas.</li>
-                <li>Trained and mentored dozens of young doctors and healthcare professionals.</li>
-                <li>Consistently received positive patient outcomes and high satisfaction ratings.</li>
-            </ul>
-            </div>
-
-            <div class="highlight-box">
-            <h3>Awards & Recognition</h3>
-            <ul>
-                <li>Medical Excellence Award, 2021 – Charis Medical Network.</li>
-                <li>Outstanding Leadership in Healthcare, 2023 – National Medical Forum.</li>
-                <li>Recognition for Community Health Impact, 2022 – City Health Commission.</li>
-            </ul>
-            </div>
+        <div class="highlight-box">
+          <h3>Achievements</h3>
+          <ul>
+            <li>Appointed Chief Medical Director at Charis-Med Hospital.</li>
+            <li>Founded and expanded a community health initiative serving underserved areas.</li>
+            <li>Trained and mentored dozens of young doctors and healthcare professionals.</li>
+            <li>Consistently received positive patient outcomes and high satisfaction ratings.</li>
+          </ul>
         </div>
-    </section>
-
-
-  <section>
-    <iframe width="100%" height="400"
-        src="https://www.youtube.com/embed?listType=user_uploads&list=DrOlayideJinadu"
-        frameborder="0"
-        allowfullscreen>
-    </iframe>
+        <div class="highlight-box">
+          <h3>Awards &amp; Recognition</h3>
+          <ul>
+            <li>Medical Excellence Award, 2021 — Charis Medical Network.</li>
+            <li>Outstanding Leadership in Healthcare, 2023 — National Medical Forum.</li>
+            <li>Recognition for Community Health Impact, 2022 — City Health Commission.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <script>
-    const header = document.querySelector("header");
-    window.addEventListener("scroll", () => {
-      header.classList.toggle("sticky", window.scrollY > 90);
-    });
+  <!-- ============ FOOTER ============ -->
+  <footer id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-about">
+            <span class="crest">OJ</span>
+            <div>
+              <strong style="color:#fff; font-family: var(--font-display);">Dr. Olayide Jinadu</strong>
+              <p>Medical Doctor. Entrepreneur. Author. Pastor. A visionary leader committed to building healthier lives, thriving businesses and a better world.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About Dr. Jinadu</a></li>
+            <li><a href="#health">Health</a></li>
+            <li><a href="#business">Business</a></li>
+            <li><a href="#books">Books</a></li>
+            <li><a href="#media">Media Centre</a></li>
+            <li><a href="#speaking">Speaking</a></li>
+            <li><a href="#contact">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact Information</h4>
+          <ul class="footer-contact">
+            <li><i class="ri-map-pin-line"></i><span>88, Isheri Oshun Road, Bucknor Estate, Ejigbo-Isolo, Lagos, Nigeria.</span></li>
+            <li><i class="ri-phone-line"></i><span>08037123702</span></li>
+            <li><i class="ri-mail-line"></i><span>olayidejinadu@gmail.com</span></li>
+            <li><i class="ri-whatsapp-line"></i><span>WhatsApp: 08037123702</span></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect With Me</h4>
+          <div class="footer-social">
+            <a href="https://www.youtube.com/@DrOlayideJinadu" target="_blank"><i class="ri-youtube-fill"></i></a>
+            <a href="#" target="_blank"><i class="ri-facebook-box-fill"></i></a>
+            <a href="https://www.instagram.com/doc_yide" target="_blank"><i class="ri-instagram-line"></i></a>
+            <a href="#" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+            <a href="#" target="_blank"><i class="ri-twitter-x-line"></i></a>
+          </div>
+          <h4 style="margin-top:20px;">Subscribe to My Newsletter</h4>
+          <div class="newsletter">
+            <input type="email" placeholder="Enter your email address" />
+            <button type="button"><i class="ri-send-plane-fill"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Dr. Olayide Adebowale Jinadu. All Rights Reserved.</span>
+        <span><a href="#">Privacy Policy</a> &nbsp;·&nbsp; <a href="#">Terms of Use</a></span>
+      </div>
+    </div>
+  </footer>
 
-    // Typewriter effect
-    const words = ["a Medical Doctor", "an Entrepreneur", "a Youtuber"];
-    let i = 0, j = 0;
-    let currentWord = "";
-    let isDeleting = false;
-
-    function type() {
-      const typewriter = document.querySelector(".typewriter");
-      if (!typewriter) return;
-      if (i < words.length) {
-        if (!isDeleting && j <= words[i].length) {
-          currentWord = words[i].substring(0, j++);
-        } else if (isDeleting && j >= 0) {
-          currentWord = words[i].substring(0, j--);
-        }
-
-        typewriter.innerHTML = currentWord;
-
-        if (j === words[i].length) isDeleting = true;
-        if (isDeleting && j === 0) {
-          isDeleting = false;
-          i = (i + 1) % words.length;
-        }
-      }
-      setTimeout(type, isDeleting ? 80 : 150);
-    }
-    type();
-
-
-    // Theme toggle logic
-    const themeIcon = document.getElementById("theme-icon");
-    const body = document.body;
-
-    // Set saved theme if any
-    if (localStorage.getItem("theme") === "dark") {
-    body.classList.add("dark-mode");
-    themeIcon.classList.replace("ri-moon-line", "ri-sun-line");
-    }
-
-    themeIcon.addEventListener("click", () => {
-    body.classList.toggle("dark-mode");
-    const isDark = body.classList.contains("dark-mode");
-
-    localStorage.setItem("theme", isDark ? "dark" : "light");
-    themeIcon.classList.toggle("ri-moon-line", !isDark);
-    themeIcon.classList.toggle("ri-sun-line", isDark);
-    });
-
-  </script>
-
+  <script src="js/script.js"></script>
 </body>
 </html>
